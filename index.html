@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Gerador de senha</h1>
+        </div>
+        <div class="input">
+            <label for="pass">Qual tamanho da senha?</label>
+            <input type="number" id="pass" min="0" max="18"/>
+            <button onclick="generatePass()">Gerar Senha</button>
+        </div>
+
+        <div class="newPassword">
+            <span id="newPassword"></span>
+        </div>
+    </div>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
